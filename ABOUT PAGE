@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Page</title>
+
+<style>
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f2f2f2;
+}
+
+/* Header */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:white;
+}
+
+.logo{
+    border:2px solid black;
+    border-radius:50px;
+    padding:5px 20px;
+    font-weight:bold;
+}
+
+nav a{
+    text-decoration:none;
+    margin-left:10px;
+    color:pink;
+}
+
+nav a.active{
+    text-decoration:underline;
+}
+
+/* Banner */
+.banner{
+    height:150px;
+    margin:20px;
+    border-radius:5px;
+    background:linear-gradient(to right, blue);
+}
+
+/* Container */
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+/* Rows */
+.row-top{
+    display:flex;
+    gap:270px; 
+}
+
+.row-bottom{
+    display:flex;
+    gap:30px;
+}
+
+/* Boxes */
+.box{
+    width:200px;
+    height:80px;
+    background:#ddd;
+    border:2px solid blue;
+    border-radius:5px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:15px;
+    border-top:2px solid blue;
+    margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">web</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#" class="active">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<div class="banner"></div>
+
+<div class="container">
+
+<div class="row-top">
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+<div class="row-bottom">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+</div>
+
+<footer>
+© 2026 All rights reserved.
+</footer>
+
+</body>
+</html>
